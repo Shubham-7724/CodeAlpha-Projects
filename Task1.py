@@ -16,7 +16,7 @@ while incorrect_guesses > 0:
     if guess.upper() in correct_word:
         print("Correct guess! \n")    
         for index , letter in enumerate(correct_word):
-            if letter == guess:
+            if letter == guess.upper():
                 Word_display[index] = guess.upper()
 
         if "_" not in Word_display:

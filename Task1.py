@@ -21,7 +21,7 @@ while incorrect_guesses > 0:
 
         if "_" not in Word_display:
             print("You Win! The word was:", correct_word)
-            break
+            break   
 
     elif guess.upper() not in correct_word:
         print("Incorrect guess! \n")

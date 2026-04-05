@@ -1,8 +1,6 @@
 # Task Automation with Python Scripts 
 # This program extracts all the email addresses from a .txt file and saves them to another file. 
-
-
-import os 
+ 
 import re
 
 with open("messy_employee_records.txt" , 'r') as F:                      #opening the existing txt file
